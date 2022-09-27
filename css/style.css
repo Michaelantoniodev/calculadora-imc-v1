@@ -1,16 +1,34 @@
 body {
-    background-color: black;
+    background-color: rgb(33,37,41);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     align-items: center;
     justify-content: center;
 }
-
+.container {
+    max-width: 500px;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translate(center);
+}
+.icones {
+    text-decoration: none;
+    width: 25px;
+    margin: 3px;
+}
+.icones:hover {
+    background-color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
 footer {
-    background-color: yellowgreen;
+    background-color: #e49c16;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 70px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
     text-align: center;
     justify-content: center;
 }

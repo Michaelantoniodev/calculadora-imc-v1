@@ -1,4 +1,4 @@
-let nome = prompt ('Qual o seu nome?');
+/*let nome = prompt ('Qual o seu nome?');
 let peso = prompt ('Quanto voçê pesa?');
 let altura = prompt ('Qual a sua altura?');
 let resultado =  parseFloat(peso / altura **2);
@@ -12,5 +12,5 @@ let alturaDigitada = document.getElementById ('altura')
 nomeDigitado.innerHTML = nome;
 pesoDigitado.innerHTML = peso;
 alturaDigitada.innerHTML = altura;
-resultadoExposto.innerHTML= (resultado.toFixed (2));
+resultadoExposto.innerHTML= (resultado.toFixed (2));*/
 
