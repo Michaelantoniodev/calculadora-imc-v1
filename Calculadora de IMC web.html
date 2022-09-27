@@ -11,11 +11,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./icones e imagens/coracao.svg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./icones e imagens/coracao.svg"
+      type="image/x-icon"
+    />
     <title>Calcule seu IMC</title>
   </head>
   <body>
-    <header class="text-bg-dark p-3">
+    <header class="text-bg-indigo p-3">
       <div class="text-warning">
         <h1 class="container">
           Calcule seu indice de massa corporal e tenha maior controle sobre sua
@@ -24,23 +28,54 @@
         <h2 class="container">insira seus dados abaixo:</h2>
       </div>
     </header>
-    <section class="text-bg-dark p-3">
-      <form class="container">
-        <fieldset class="input-group">
+    <section class="text-bg-indigo p-3">
+      <form id="formulario" class="container" method="post">
+        <label class="input-group">
           <span class="input-group-text">Seu nome completo</span>
-          <input id="nome" name="nome" type="text" aria-label="First name" class="form-control" />
-        </fieldset>
-        <fieldset class="input-group">
+          <input
+            id="nome"
+            name="nome"
+            type="text"
+            aria-label="First name"
+            class="form-control"
+          />
+        </label>
+        <label class="input-group">
           <span class="input-group-text"> Seu peso atual </span>
-          <input id="peso" name="peso" type="number" aria-label="First name" class="form-control" />
-        </fieldset>
+          <input
+            id="peso"
+            name="peso"
+            type="number"
+            aria-label="First name"
+            class="form-control"
+          />
+        </label>
 
-        <fieldset class="input-group">
+        <label class="input-group">
           <span class="input-group-text">Sua altura atual</span>
-          <input id="altura" name="altura" type="number" aria-label="First name" class="form-control" />
-        </fieldset>
-        <button type="submit" class="btn btn-warning"> <img src="./icones e imagens/coracao.svg" alt="coração"> Calcular IMC</button>
+          <input
+            id="altura"
+            name="altura"
+            type="number"
+            aria-label="First name"
+            class="form-control"
+          />
+        </label>
+        <label class="dataImput">
+          <button type="submit" id="calculator" class="btn btn-light">
+            <img src="./icones e imagens/coracao.svg" alt="coração" /> <em><strong>Calcular IMC</strong> </em>
+          </button>
+        </label>
+        
       </form>
+      <div id="resultado" nome="resultado" class="result">
+        <h4>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
+          accusantium autem dolorum similique voluptates, quos molestiae
+          corporis aut tempora. Excepturi iusto ab suscipit nesciunt perferendis
+          nisi aut sunt dolor error.
+        </h4>
+      </div>
     </section>
     <footer>
       <p>

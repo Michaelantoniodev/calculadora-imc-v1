@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(33,37,41);
+    background-color:#544478;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     align-items: center;
@@ -17,13 +17,29 @@ body {
     margin: 3px;
 }
 .icones:hover {
-    background-color: whitesmoke;
+    background-color: #a7cdf8;
     width: 30px;
     height: 30px;
     border-radius: 2px;
 }
+
+.result {
+    background-color:#fafafa;
+    border-radius: 5px;
+    margin-top: 9px;
+    color: black;
+    max-width: 475px;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translate(center);
+}
+
+.dataImput {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 footer {
-    background-color: #e49c16;
+    background-color: #76bb6a;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
