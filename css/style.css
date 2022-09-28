@@ -5,6 +5,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+.logo {
+    margin-right: 40%;
+    margin-left: 45%;
+    margin-bottom: 50px;
+}
 .container {
     max-width: 500px;
     justify-content: center;
@@ -39,7 +44,7 @@ body {
     margin-top: 20px;
 }
 footer {
-    background-color: #76bb6a;
+    background-color: #f3ffcf;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
