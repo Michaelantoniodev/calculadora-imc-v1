@@ -21,12 +21,6 @@ body {
     width: 25px;
     margin: 3px;
 }
-.icones:hover {
-    background-color: #a7cdf8;
-    width: 30px;
-    height: 30px;
-    border-radius: 2px;
-}
 
 .result {
     background-color:#fafafa;
